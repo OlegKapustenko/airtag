@@ -17,13 +17,14 @@ TODAY=$(date +%d)
 
 mkdir -p $DATADIR
 
-if [ $# -ne 1 ]; then
-  echo 'usage: $0 "White 1"'
-  echo "where White 1 is the name of the iTag"
+if [ $# -ne 2 ]; then
+  echo 'usage: $0 "White 1" iTag'
+  echo "where White 1 is the name of the iTag, iTag is the target path for the web"
   exit 2
 fi
 
 TAGNAME=$1
+_PATH=$2
 _TAGNAME=$(echo $TAGNAME | tr ' ' '_')
 DATA=$DATADIR/airtagdata-${_TAGNAME}_$TODAY.txt
 GPX=$DATADIR/airtagdata-${_TAGNAME}_$TODAY.gpx
@@ -37,7 +38,12 @@ fi
 rm -f $DATADIR/airtagdata-${_TAGNAME}_$TOMORROW.gpx
 
 DDATA=$(jq -r --arg TAGNAME "$TAGNAME" '.[] | select(.name == $TAGNAME) | .location | "\(.latitude) \(.longitude) \(.altitude) \(.timeStamp/1000 | todate)"' \
-   /Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data)
+   /Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data 2>/dev/null || echo "Null")
+
+if [ "$DDATA" = "Null" ]; then
+  DDATA=$(jq -r --arg TAGNAME "$TAGNAME" '.[] | select(.name == $TAGNAME) | .safeLocations[0].location | "\(.latitude) \(.longitude) \(.altitude) \(.timeStamp/1000 | todate)"' \
+   /Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data || echo "Null")
+fi
 
 LAST_LINE=$(tail -1 $DATA 2>/dev/null || echo "")
 
@@ -94,6 +100,5 @@ echo $END >> $GPX
 echo $END >> $GPX_LAST
 cp $GPX $DATADIR/airtagdata_${_TAGNAME}.gpx
 sleep 1
-scp $DATADIR/*gpx ok@center.dyndns.biz:static/data >/dev/null
-scp $DATADIR/*gpx ok@center.dyndns.biz:iTag/data >/dev/null
+scp $DATADIR/*gpx ok@center.dyndns.biz:${_PATH}/data >/dev/null
 # rsync -a --exclude='*.txt' $DATADIR example.com:public_html/airtag/
