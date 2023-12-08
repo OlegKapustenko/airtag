@@ -13,6 +13,7 @@ set -o pipefail -o nounset -o errexit
 
 export PATH=/usr/local/bin:$PATH
 DATADIR=$HOME/AirTag
+_DATADIR=$HOME/AirTag/data
 TODAY=$(date +%d)
 
 mkdir -p $DATADIR
@@ -28,7 +29,7 @@ _PATH=$2
 _TAGNAME=$(echo $TAGNAME | tr ' ' '_')
 DATA=$DATADIR/airtagdata-${_TAGNAME}_$TODAY.txt
 GPX=$DATADIR/airtagdata-${_TAGNAME}_$TODAY.gpx
-GPX_LAST=$DATADIR/airtagdata-${_TAGNAME}_${TODAY}_last.gpx
+GPX_LAST=$_DATADIR/airtagdata-${_TAGNAME}_${TODAY}_last.gpx
 
 if [[ $(uname -s) == "Darwin" ]]; then
   TOMORROW=$(date -v +1d +%d)
@@ -47,7 +48,7 @@ fi
 
 LAST_LINE=$(tail -1 $DATA 2>/dev/null || echo "")
 
-if [ "$LAST_LINE" = "$DDATA" ]; then
+if [ "$DDATA" = "Null" ] || [ "$LAST_LINE" = "$DDATA" ]; then
   # echo "nothing changed"
   exit
 fi
@@ -99,6 +100,8 @@ echo '<trkpt lat="'$LAT'" lon="'$LON'">
 echo $END >> $GPX
 echo $END >> $GPX_LAST
 cp $GPX $DATADIR/airtagdata_${_TAGNAME}.gpx
+cp $GPX $_DATADIR/airtagdata_${_TAGNAME}.gpx
 sleep 1
-scp $DATADIR/*gpx ok@center.dyndns.biz:${_PATH}/data >/dev/null
+scp $_DATADIR/*gpx ok@center.dyndns.biz:${_PATH}/data >/dev/null
+rm $_DATADIR/*gpx 2>/dev/null
 # rsync -a --exclude='*.txt' $DATADIR example.com:public_html/airtag/
