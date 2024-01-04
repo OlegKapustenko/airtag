@@ -36,7 +36,7 @@ if [[ $(uname -s) == "Darwin" ]]; then
 else
   TOMORROW=$(date --date="tomorrow" +%d)
 fi
-rm -f $DATADIR/airtagdata-${_TAGNAME}_$TOMORROW.gpx
+rm -f $DATADIR/airtagdata-${_TAGNAME}_$TOMORROW.*
 
 DDATA=$(jq -r --arg TAGNAME "$TAGNAME" '.[] | select(.name == $TAGNAME) | .location | "\(.latitude) \(.longitude) \(.altitude) \(.timeStamp/1000 | todate)"' \
    /Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data 2>/dev/null || echo "Null")
@@ -84,7 +84,9 @@ function elems() {
 }
 
 cat $DATA | while read line; do
-  elems $line
+  if [ ! "$line" = '' ]; then
+    elems $line
+  fi
   echo '<trkpt lat="'$LAT'" lon="'$LON'">
             <ele>'$ELE'</ele>
             <time>'$TS'</time>
