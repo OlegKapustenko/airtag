@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>White_1</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.023336199999996" lon="15.115071100000007">
+            <ele>-1</ele>
+            <time>2023-11-23T10:55:27Z</time>
+         </trkpt>
+<trkpt lat="52.020678810436813" lon="15.111986448093726">
+            <ele>-1</ele>
+            <time>2023-11-24T14:06:53Z</time>
+         </trkpt>
+<trkpt lat="52.020666324354131" lon="15.112021544564831">
+            <ele>-1</ele>
+            <time>2023-11-24T14:06:53Z</time>
+         </trkpt>
+<trkpt lat="52.020655916995295" lon="15.112030616919389">
+            <ele>-1</ele>
+            <time>2023-11-24T14:06:53Z</time>
+         </trkpt>
+<trkpt lat="52.020545648714624" lon="15.11213062514496">
+            <ele>-1</ele>
+            <time>2023-12-23T13:43:09Z</time>
+         </trkpt>
+<trkpt lat="52.020521641625429" lon="15.112142038309969">
+            <ele>-1</ele>
+            <time>2023-12-24T19:09:23Z</time>
+         </trkpt>
+<trkpt lat="52.020543162163243" lon="15.112131807272252">
+            <ele>-1</ele>
+            <time>2023-12-24T19:09:23Z</time>
+         </trkpt>
+<trkpt lat="52.020518341549419" lon="15.112140338272317">
+            <ele>-1</ele>
+            <time>2023-12-24T19:48:14Z</time>
+         </trkpt>
+<trkpt lat="52.020540832633202" lon="15.112132607946704">
+            <ele>-1</ele>
+            <time>2023-12-24T19:48:14Z</time>
+         </trkpt>
+<trkpt lat="52.020533243125527" lon="15.112139669217624">
+            <ele>-1</ele>
+            <time>2023-12-24T19:48:14Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

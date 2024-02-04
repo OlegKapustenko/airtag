@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Kate_long</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.143250929998914" lon="21.051762122317747">
+            <ele>-1</ele>
+            <time>2024-01-18T10:34:14Z</time>
+         </trkpt>
+<trkpt lat="52.143208145736025" lon="21.051723587164854">
+            <ele>-1</ele>
+            <time>2024-01-19T18:09:51Z</time>
+         </trkpt>
+<trkpt lat="52.143247543859481" lon="21.051759072468911">
+            <ele>-1</ele>
+            <time>2024-01-19T18:09:51Z</time>
+         </trkpt>
+<trkpt lat="52.143247327311251" lon="21.051757210557607">
+            <ele>-1</ele>
+            <time>2024-01-19T18:09:51Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

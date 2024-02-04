@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Natalia</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.020510038367178" lon="15.112148513169183">
+            <ele>-1</ele>
+            <time>2024-01-10T17:31:41Z</time>
+         </trkpt>
+<trkpt lat="52.020509785994221" lon="15.112136498851532">
+            <ele>-1</ele>
+            <time>2024-01-11T08:44:02Z</time>
+         </trkpt>
+<trkpt lat="52.020510009760855" lon="15.112147151350554">
+            <ele>-1</ele>
+            <time>2024-01-11T08:44:02Z</time>
+         </trkpt>
+<trkpt lat="52.020509626542314" lon="15.112147275995385">
+            <ele>-1</ele>
+            <time>2024-01-11T08:44:02Z</time>
+         </trkpt>
+<trkpt lat="52.020510070725223" lon="15.112135280611437">
+            <ele>-1</ele>
+            <time>2024-01-11T13:35:53Z</time>
+         </trkpt>
+<trkpt lat="52.020509677205851" lon="15.112145907802571">
+            <ele>-1</ele>
+            <time>2024-01-11T13:35:53Z</time>
+         </trkpt>
+<trkpt lat="52.020509951783062" lon="15.1121358647795">
+            <ele>-1</ele>
+            <time>2024-01-11T14:46:53Z</time>
+         </trkpt>
+<trkpt lat="52.020509392458933" lon="15.112144670743724">
+            <ele>-1</ele>
+            <time>2024-01-11T14:46:53Z</time>
+         </trkpt>
+<trkpt lat="52.020509576893168" lon="15.112137705999325">
+            <ele>-1</ele>
+            <time>2024-01-11T15:23:23Z</time>
+         </trkpt>
+<trkpt lat="52.020509482110477" lon="15.112142110854023">
+            <ele>-1</ele>
+            <time>2024-01-11T15:23:23Z</time>
+         </trkpt>
+<trkpt lat="52.020509574696923" lon="15.112141695909292">
+            <ele>-1</ele>
+            <time>2024-01-11T15:23:23Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

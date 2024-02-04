@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>KR9N176</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="50.016931599999985" lon="19.990922600000001">
+            <ele>-1</ele>
+            <time>2024-01-18T20:12:22Z</time>
+         </trkpt>
+<trkpt lat="50.01177659999999" lon="19.978745799999999">
+            <ele>-1</ele>
+            <time>2024-01-19T12:43:51Z</time>
+         </trkpt>
+<trkpt lat="50.011734752370842" lon="19.978531223983943">
+            <ele>-1</ele>
+            <time>2024-01-19T20:38:53Z</time>
+         </trkpt>
+<trkpt lat="50.011751691696638" lon="19.97861808101683">
+            <ele>-1</ele>
+            <time>2024-01-19T20:38:53Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

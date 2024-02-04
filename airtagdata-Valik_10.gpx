@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Valik</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.020560624832306" lon="15.11210213073606">
+            <ele>-1</ele>
+            <time>2024-01-08T22:15:48Z</time>
+         </trkpt>
+<trkpt lat="52.020707350926791" lon="15.111938248257148">
+            <ele>-1</ele>
+            <time>2024-01-10T02:23:08Z</time>
+         </trkpt>
+<trkpt lat="52.020567642028865" lon="15.112094293063267">
+            <ele>-1</ele>
+            <time>2024-01-10T02:23:08Z</time>
+         </trkpt>
+<trkpt lat="52.020574228434235" lon="15.112087062285498">
+            <ele>-1</ele>
+            <time>2024-01-10T02:23:08Z</time>
+         </trkpt>
+<trkpt lat="52.020710699679618" lon="15.111943150751065">
+            <ele>-1</ele>
+            <time>2024-01-10T19:43:06Z</time>
+         </trkpt>
+<trkpt lat="52.020581684153392" lon="15.112079200114765">
+            <ele>-1</ele>
+            <time>2024-01-10T19:43:06Z</time>
+         </trkpt>
+<trkpt lat="52.020593418375832" lon="15.112066223528087">
+            <ele>-1</ele>
+            <time>2024-01-10T19:43:06Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

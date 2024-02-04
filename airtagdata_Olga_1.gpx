@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Olga_1</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="50.011690466629041" lon="19.978584478562588">
+            <ele>-1</ele>
+            <time>2024-01-31T09:49:06Z</time>
+         </trkpt>
+<trkpt lat="50.011718000000002" lon="19.9786103">
+            <ele>-1</ele>
+            <time>2024-02-04T13:55:00Z</time>
+         </trkpt>
+<trkpt lat="50.01169124889384" lon="19.978585212188289">
+            <ele>-1</ele>
+            <time>2024-02-04T13:55:00Z</time>
+         </trkpt>
+<trkpt lat="50.011691946118383" lon="19.978581587995649">
+            <ele>-1</ele>
+            <time>2024-02-04T13:59:50Z</time>
+         </trkpt>
+<trkpt lat="50.011687692353142" lon="19.978515175684116">
+            <ele>-1</ele>
+            <time>2024-02-04T13:59:50Z</time>
+         </trkpt>
+<trkpt lat="50.011684943335496" lon="19.978486628191078">
+            <ele>-1</ele>
+            <time>2024-02-04T14:08:48Z</time>
+         </trkpt>
+<trkpt lat="50.011703313518822" lon="19.97846561098272">
+            <ele>-1</ele>
+            <time>2024-02-04T14:15:43Z</time>
+         </trkpt>
+<trkpt lat="50.01168870922789" lon="19.978513968776017">
+            <ele>-1</ele>
+            <time>2024-02-04T14:15:43Z</time>
+         </trkpt>
+<trkpt lat="50.011687858425894" lon="19.978509450849042">
+            <ele>-1</ele>
+            <time>2024-02-04T14:15:43Z</time>
+         </trkpt>
+<trkpt lat="50.011649813212188" lon="19.978319284428004">
+            <ele>-1</ele>
+            <time>2024-02-04T14:31:27Z</time>
+         </trkpt>
+<trkpt lat="50.011658111160621" lon="19.978315012358713">
+            <ele>-1</ele>
+            <time>2024-02-04T14:39:48Z</time>
+         </trkpt>
+<trkpt lat="50.011681331072907" lon="19.978475677782875">
+            <ele>-1</ele>
+            <time>2024-02-04T14:39:48Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

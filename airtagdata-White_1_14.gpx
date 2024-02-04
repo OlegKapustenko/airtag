@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>White_1</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.023428499999987" lon="15.113830699999999">
+            <ele>-1</ele>
+            <time>2023-11-13T15:27:49Z</time>
+         </trkpt>
+<trkpt lat="52.0207579" lon="15.111941899999998">
+            <ele>-1</ele>
+            <time>2023-11-14T03:16:11Z</time>
+         </trkpt>
+<trkpt lat="52.020756255096629" lon="15.111943642990584">
+            <ele>-1</ele>
+            <time>2023-11-14T03:16:11Z</time>
+         </trkpt>
+<trkpt lat="52.045510999999998" lon="15.104098699999998">
+            <ele>-1</ele>
+            <time>2023-12-13T13:10:36Z</time>
+         </trkpt>
+<trkpt lat="52.020737099999991" lon="15.111949999999995">
+            <ele>-1</ele>
+            <time>2023-12-14T03:50:41Z</time>
+         </trkpt>
+<trkpt lat="52.020716349750145" lon="15.11193882676657">
+            <ele>-1</ele>
+            <time>2023-12-14T15:34:56Z</time>
+         </trkpt>
+<trkpt lat="52.020598155293563" lon="15.112069596572807">
+            <ele>-1</ele>
+            <time>2023-12-14T16:03:53Z</time>
+         </trkpt>
+<trkpt lat="52.020671454296625" lon="15.111998699585973">
+            <ele>-1</ele>
+            <time>2023-12-14T16:03:53Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

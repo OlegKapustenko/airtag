@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Black_1</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="49.789409299999981" lon="33.729348899999998">
+            <ele>-1</ele>
+            <time>2024-01-12T14:51:52Z</time>
+         </trkpt>
+<trkpt lat="49.787388245289819" lon="33.736395821896963">
+            <ele>-1</ele>
+            <time>2024-01-16T15:53:25Z</time>
+         </trkpt>
+<trkpt lat="49.787361162559179" lon="33.736336754779543">
+            <ele>-1</ele>
+            <time>2024-01-16T15:53:25Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

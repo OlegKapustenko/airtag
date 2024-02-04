@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Olesia</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.020508797424121" lon="15.112141847849253">
+            <ele>-1</ele>
+            <time>2024-01-24T15:32:07Z</time>
+         </trkpt>
+<trkpt lat="52.020513503158519" lon="15.112140771176151">
+            <ele>-1</ele>
+            <time>2024-01-25T12:36:10Z</time>
+         </trkpt>
+<trkpt lat="52.020509205359581" lon="15.112141754513541">
+            <ele>-1</ele>
+            <time>2024-01-25T12:36:10Z</time>
+         </trkpt>
+<trkpt lat="52.020509313029308" lon="15.112141273404717">
+            <ele>-1</ele>
+            <time>2024-01-25T12:36:10Z</time>
+         </trkpt>
+<trkpt lat="52.020534828795476" lon="15.112108401584271">
+            <ele>-1</ele>
+            <time>2024-01-25T15:44:54Z</time>
+         </trkpt>
+<trkpt lat="52.020511836500127" lon="15.112138022433413">
+            <ele>-1</ele>
+            <time>2024-01-25T15:44:54Z</time>
+         </trkpt>
+<trkpt lat="52.020512145704032" lon="15.112137342423743">
+            <ele>-1</ele>
+            <time>2024-01-25T15:44:54Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

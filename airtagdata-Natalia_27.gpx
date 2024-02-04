@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Natalia</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="52.020508862110781" lon="15.112145919307411">
+            <ele>-1</ele>
+            <time>2024-01-25T15:44:37Z</time>
+         </trkpt>
+<trkpt lat="52.020510718177796" lon="15.112150387903707">
+            <ele>-1</ele>
+            <time>2024-01-27T15:54:29Z</time>
+         </trkpt>
+<trkpt lat="52.020509007847529" lon="15.112146270177613">
+            <ele>-1</ele>
+            <time>2024-01-27T15:54:29Z</time>
+         </trkpt>
+<trkpt lat="52.020509079702585" lon="15.112146317906305">
+            <ele>-1</ele>
+            <time>2024-01-27T15:54:29Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mytracks="http://mytracks.stichling.info/myTracksGPX/1/0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="myTracks" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"> <trk> <name>Alex2</name> <extensions> <mytracks:color red="0.000000" green="0.000000" blue="1.000000" alpha="1.000000" /> <mytracks:area showArea="no" areaDistance="0.000000" /> <mytracks:directionArrows showDirectionArrows="yes" /> <mytracks:sync syncPhotosOniPhone="no" /> <mytracks:timezone offset="120" /> </extensions> <trkseg>
+<trkpt lat="51.959471200000003" lon="15.4659622">
+            <ele>-1</ele>
+            <time>2024-01-23T19:37:39Z</time>
+         </trkpt>
+<trkpt lat="51.383999439418012" lon="16.199398783784549">
+            <ele>-1</ele>
+            <time>2024-01-28T10:02:14Z</time>
+         </trkpt>
+<trkpt lat="51.380921200000003" lon="16.197790999999999">
+            <ele>-1</ele>
+            <time>2024-01-28T13:35:04Z</time>
+         </trkpt>
+<trkpt lat="51.383315831544451" lon="16.199454522454108">
+            <ele>-1</ele>
+            <time>2024-01-28T13:49:36Z</time>
+         </trkpt>
+<trkpt lat="51.38321635397476" lon="16.199508881204462">
+            <ele>-1</ele>
+            <time>2024-01-28T13:55:45Z</time>
+         </trkpt>
+<trkpt lat="51.383271365854284" lon="16.199478820418332">
+            <ele>-1</ele>
+            <time>2024-01-28T13:55:45Z</time>
+         </trkpt>
+<trkpt lat="51.383573085209903" lon="16.199404905846929">
+            <ele>-1</ele>
+            <time>2024-01-28T18:11:11Z</time>
+         </trkpt>
+<trkpt lat="51.383883489556005" lon="16.199409060829517">
+            <ele>-1</ele>
+            <time>2024-01-28T18:11:11Z</time>
+         </trkpt>
+<trkpt lat="51.373655099999986" lon="16.1738085">
+            <ele>-1</ele>
+            <time>2024-01-28T18:21:00Z</time>
+         </trkpt>
+</trkseg> </trk> </gpx>
