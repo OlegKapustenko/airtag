@@ -179,4 +179,12 @@
             <ele>-1</ele>
             <time>2024-02-04T16:00:45Z</time>
          </trkpt>
+<trkpt lat="52.143507999999997" lon="21.052372999999996">
+            <ele>-1</ele>
+            <time>2024-02-04T16:04:32Z</time>
+         </trkpt>
+<trkpt lat="52.14350799999999" lon="21.052372999999996">
+            <ele>-1</ele>
+            <time>2024-02-04T16:04:32Z</time>
+         </trkpt>
 </trkseg> </trk> </gpx>
