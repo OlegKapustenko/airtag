@@ -24,6 +24,7 @@ if [ $# -ne 2 ]; then
   exit 2
 fi
 
+file_path=/Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data
 TAGNAME=$1
 _PATH=$2
 _TAGNAME=$(echo $TAGNAME | tr ' ' '_')

@@ -31,7 +31,7 @@ def copy_to_web_server(file_path, destination_directory):
     subprocess.run(['scp', file_path, f'ok@center.dyndns.biz:{destination_directory}/data'])
 
 # Main script
-json_file_path = '/tmp/collect.json'
+json_file_path = '/Users/oleg/Library/Caches/com.apple.findmy.fmipcore/Items.data'
 config_file_path = 'config.json'  # Replace with your actual config file path
 template_file_path = 'template.txt'  # Replace with your actual template file path
 
