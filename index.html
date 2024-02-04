@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">                                                
+<head>                                                                                              
+  <meta charset="utf-8" />                        
+  <title>Oleg 1</title>          
+  <script src="prototype.at"></script>                                              
+  <script src="leaflet.min.js"></script> 
+  <script src="leaflet.hotline.min.js"></script>
+  <link rel="stylesheet" href="leaflet.css" />
+                                           
+  <style>                                                              
+    h2 {                                                                                                     
+      font-family: sans-serif;   
+    }                                                           
+                                        
+    #map {                           
+      height: 85vh;                                                                                      
+      width: 99vw;                                                                         
+    }      
+  </style>                                                      
+</head>
+<body>                                            
+  <h2 id="lastUpdate"></h2>      
+  <div id="map"></div>
+
+  <script>
+    let tagmap = L.map("map");
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19,
+    }).addTo(tagmap);
+
+    function drawTrack(track) {
+      let z = 0;
+      let coordinates = track.points.map((p) => [p.lat.toFixed(5), p.lon.toFixed(5), z++]);
+
+      let polyline = L.hotline(coordinates, {
+        min: 0,
+        max: z,
+        weight: 5,
+        palette: {
+          0.0: "#008800",
+          0.5: "#ffff00",
+          1.0: "#ff0000",
+        },
+        outlineColor: "#000000",
+        outlineWidth: 1,
+      }).addTo(tagmap);
+      L.circle(coordinates.at(-1), { radius: 5 }).addTo(tagmap);
+
+      // zoom the map to the polyline
+      tagmap.fitBounds(polyline.getBounds());
+    }
+
+    let url_string = window.location.href;
+    let url = new URL(url_string);
+    let trackPath = url.searchParams.get("track");
+    if (!trackPath) {
+      trackPath = "data/airtagdata_Oleg_1.txt"; // Update the path to your text file
+    }
+
+    fetch(trackPath)
+    .then(function (response) {
+      return response.text();
+    })
+    .then(function (textData) {
+      let lines = textData.split('\n');
+      let points = lines.map(line => {
+        if (line.trim() === '') {
+          // Skip empty lines
+          return null;
+        }
+        let [lat, lon, altitude, timestamp] = line.split(' ');
+        //   console.log(`Line: Lat=${lat}, Lon=${lon}, Altitude=${altitude}, Timestamp=${timestamp}`);
+        return {
+          lat: parseFloat(lat),
+          lon: parseFloat(lon),
+          altitude: parseInt(altitude),
+          time: new Date(timestamp),
+        };
+      }).filter(point => point !== null);
+
+      let dummyTrack = {
+        points: points
+      };
+
+      drawTrack(dummyTrack);
+      document.getElementById("lastUpdate").innerText = dummyTrack.points.at(-1).time.toLocaleString();
+    });
+  </script>
+</body>
+</html>
