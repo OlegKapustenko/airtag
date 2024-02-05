@@ -6,7 +6,7 @@ while true; do
   if ((current_time - modification_time <= 300)); then
     echo -n "File was updated within the last 5 minutes."
   else
-    echo -n "File was not updated within the last 5 minutes."
+    touch /tmp/a.a
   fi
   echo "  The delta is $delta"
 #  /Users/oleg/AirTag/dailyGPX.sh "Oleg 1" iTag
