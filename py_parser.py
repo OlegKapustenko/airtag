@@ -104,5 +104,6 @@ for obj in json_data:
         destination_directory = config_data[object_name]['directory']
         # print ("destination_directory: {}".format(destination_directory))
         # print ("debug {}".format(destination_directory + '/' + txt_file_path))
+        print ("%s".format(datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")))
         copy_to_web_server(output_file_path, f'{destination_directory}/data/{txt_file_path}')
         copy_to_web_server(output_file_path, f'{destination_directory}/data/')

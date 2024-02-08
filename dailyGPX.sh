@@ -105,6 +105,6 @@ echo $END >> $GPX_LAST
 cp $GPX $DATADIR/airtagdata_${_TAGNAME}.gpx
 cp $GPX $_DATADIR/airtagdata_${_TAGNAME}.gpx
 sleep 1
-scp $DATA $_DATADIR/*gpx ok@center.dyndns.biz:${_PATH}/data >/dev/null
+scp $_DATADIR/*gpx ok@center.dyndns.biz:${_PATH}/data >/dev/null
 rm $_DATADIR/*gpx 2>/dev/null
 # rsync -a --exclude='*.txt' $DATADIR example.com:public_html/airtag/
