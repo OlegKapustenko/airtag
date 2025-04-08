@@ -28,7 +28,7 @@ def create_template(name, data, template):
 
 # Function to copy file to web server using scp
 def copy_to_web_server(file_path, destination_directory):
-    subprocess.run(['scp', file_path, f'ok@center.dyndns.biz:{destination_directory}'])
+    subprocess.run(['scp', file_path, f'ok@center.dyndns.biz:{destination_directory}'], timeout=60)
 
 
 # Main script
@@ -104,6 +104,8 @@ for obj in json_data:
         destination_directory = config_data[object_name]['directory']
         # print ("destination_directory: {}".format(destination_directory))
         # print ("debug {}".format(destination_directory + '/' + txt_file_path))
-        print ("%s".format(datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")))
+        print ("{}".format(datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")))
         copy_to_web_server(output_file_path, f'{destination_directory}/data/{txt_file_path}')
         copy_to_web_server(output_file_path, f'{destination_directory}/data/')
+        # base path copy
+        copy_to_web_server(output_file_path, f'iTag/data/')

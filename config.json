@@ -1,8 +1,17 @@
 {
-  "Oleg 1": {
+  "Vira": {
+    "directory": "vira"
+  },  
+  "Oleg": {
+    "directory": "iTag"
+  },
+  "Oleg 2": {
     "directory": "iTag"
   },
   "Olga 1": {
+    "directory": "iTag"
+  },
+  "Olga 2": {
     "directory": "iTag"
   },
   "KR9N176": {

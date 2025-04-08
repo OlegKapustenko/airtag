@@ -9,8 +9,10 @@ while true; do
     touch /tmp/a.a
   fi
   echo "  The delta is $delta"
-#  /Users/oleg/AirTag/dailyGPX.sh "Oleg 1" iTag
+  /Users/oleg/AirTag/dailyGPX.sh "Oleg" iTag
+  /Users/oleg/AirTag/dailyGPX.sh "Oleg 2" iTag
   /Users/oleg/AirTag/dailyGPX.sh "Olga 1" iTag
+  /Users/oleg/AirTag/dailyGPX.sh "Olga 2" iTag
   /Users/oleg/AirTag/dailyGPX.sh "KR9N176" iTag
   /Users/oleg/AirTag/dailyGPX.sh "Black 1" static
   /Users/oleg/AirTag/dailyGPX.sh "Valik" denysovy
